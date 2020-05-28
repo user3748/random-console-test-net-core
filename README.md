@@ -51,6 +51,6 @@ v0.0.7 | Feature Update | when its ready | Waiting | | | Source Release
 "These things... they take time." - Gabe Newell
 ## Downloads (warning: work in progress everything is subject to change)
 Platform | Type | Download
------------- | -------------
-Windows | x64 Portable
-Win | x64 msi Installer
+------------ | ------------- | -------------
+Windows | x64 Portable |
+Win | x64 msi Installer |
