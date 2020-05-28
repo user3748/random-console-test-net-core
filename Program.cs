@@ -8,6 +8,7 @@ namespace random_console_test_net_core
 {
     class Program
     {
+        //Console Output Interval: Do program tasks in the background and only print a status update every x seconds
         //formatting https://docs.microsoft.com/de-de/dotnet/standard/base-types/composite-formatting
         //string formatting 1: https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings
         //string formatting 2: https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings
