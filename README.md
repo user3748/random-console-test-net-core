@@ -13,16 +13,16 @@ This program should run on windows and ubuntu if the net core sdk is installed, 
 * coming soon
 ## Roadmap
 
-Releases | Status | Release Date | Notes
------------- | ------------- | ------------- | -------------
-v0.1.0 | In Development | when its ready | Feature Release
-v0.1.1  | Waiting | when its ready | Bugfix Release
-v0.2.0 | Waiting | when its ready | Feature Release
-v0.2.1 | Waiting | when its ready | Bugfix Release
-v0.3.0 | Waiting | when its ready | Feature Release
-v0.3.1 | Waiting | when its ready | Bugfix Release
-v0.4.0 | Planning | TBA | Feature Release
-v0.4.1| Waiting | when its ready | Bugfix Release
+Releases | Status | Release Date | Notes | Development Start | Development End
+------------ | ------------- | ------------- | ------------- | ------------- | -------------
+v0.1.0 | In Development | when its ready | Feature Release | 28.05.2020 | 
+v0.1.1  | Waiting | when its ready | Bugfix Release | | 
+v0.2.0 | Waiting | when its ready | Feature Release | | 
+v0.2.1 | Waiting | when its ready | Bugfix Release | | 
+v0.3.0 | Waiting | when its ready | Feature Release | | 
+v0.3.1 | Waiting | when its ready | Bugfix Release | | 
+v0.4.0 | Planning | TBA | Feature Release | | 
+v0.4.1| Waiting | when its ready | Bugfix Release | | 
 ### Feature Release v0.1.0 todo list
 - [ ] add statistics
 ### Feature Release v0.2.0 todo list
