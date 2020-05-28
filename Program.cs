@@ -28,6 +28,14 @@ namespace random_console_test_net_core
                     Console.WriteLine($"random number a : {a} matched: x:{x} or y:{y} in {trys} trys");
                     Console.WriteLine("Press any key to try again... Press Ctrl + C to exit this program.");
                     Console.ReadKey();
+                    trys = 0;//reset trys var because we want to start fresh
+                }
+
+                if(trys >= Int32.MaxValue)
+                {
+                    Console.WriteLine($"Sorry but to prevent the program from crashing we need to stop the simulation now because we have reached the Int32 limit which is: {Int32.MaxValue}");
+                    Console.WriteLine($"Press any key to restart the simulation...");
+                    trys = 0;//reset trys because we have reached the Int32.MaxValue
                 }
                 Thread.Sleep(wait);//Sleep for x milliseconds
             }
