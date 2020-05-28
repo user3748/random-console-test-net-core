@@ -13,20 +13,29 @@ This program should run on windows and ubuntu if the net core sdk is installed, 
 * coming soon
 ## Roadmap
 
-Releases | Status | Release Date
------------- | ------------- | -------------
-v0.1.0 | In Development | when its ready
-v0.2.0 | In Development | when its ready
-v0.3.0 | Planning | TBA
-### Release v0.1.0 todo list
+Releases | Status | Release Date | Notes
+------------ | ------------- | ------------- | -------------
+v0.1.0 | In Development | when its ready | Feature Release
+v0.1.1  | Waiting | when its ready | Bugfix Release
+v0.2.0 | Waiting | when its ready | Feature Release
+v0.2.1 | Waiting | when its ready | Bugfix Release
+v0.3.0 | Waiting | when its ready | Feature Release
+v0.3.1 | Waiting | when its ready | Bugfix Release
+v0.4.0 | Planning | TBA | Feature Release
+v0.4.1| Waiting | when its ready | Bugfix Release
+### Feature Release v0.1.0 todo list
 - [ ] add statistics
-### Release v0.2.0 todo list
+### Feature Release v0.2.0 todo list
 - [ ] add multithreading
 - [ ] the ability to create own custom simulations
 - [ ] data log of the simulation
-### Release v0.3.0 todo list
+### Feature Release v0.3.0 todo list
+- [ ] GUI with qt
+### Feature Release v0.4.0 todo list
 * coming soon
 ## install instructions
 "These things... they take time." - Gabe Newell
 ## build from source instructions
+"These things... they take time." - Gabe Newell
+##Documentation
 "These things... they take time." - Gabe Newell

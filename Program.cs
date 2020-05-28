@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Reflection.Metadata.Ecma335;
+using System.Runtime.InteropServices;
 
 namespace random_console_test_net_core
 {
@@ -10,10 +11,9 @@ namespace random_console_test_net_core
         public static int y = 0; 
         static void Main(string[] args)
         {
-            Console.WindowWidth = 120;
-            //todo: eyecandy bool flags <<<<<<<<<<<<<<<<<<<<<<<<<<---------------------------------------
-            bool showTextHighscore = false;
-            bool showTextLowscore = false;
+            Console.WindowHeight = 50;
+            Console.WindowWidth = 150;
+            bool showTextLowHighScore = false;
             //init Random()
             Random rnd = new Random();
             int wait = 1000;//seconds to wait between each try.
@@ -40,9 +40,19 @@ namespace random_console_test_net_core
                 //simulating 2 percent chance
                 
                 int a = rnd.Next(1, 101);//random number generated
-                Console.WriteLine($"[{totalLoops}]::attempt: {attempt} random number a: {a} lucky number x: {x} lucky number y: {y} least attempts:{lowscoretrys} most attempts:{highscoretrys}");
+                if (showTextLowHighScore)
+                {
+                    //with lowest highest statistics
+                    Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}{totalLoops}] | attempt: {attempt} | random number a: {a} | lucky number x: {x}\tlucky number y: {y} | least attempts:{lowscoretrys} most attempts:{highscoretrys}");
+                }
+                else
+                {
+                    //without lowest highest statistics
+                    Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}{totalLoops}] | attempt: {attempt} | random number a: {a} | lucky number x: {x}\tlucky number y: {y}");
+                }
                 if (a == x || a == y)
                 {
+                    showTextLowHighScore = true;
                     if (attempt > highscoretrys)
                     {
                         highscoretrys = attempt;
