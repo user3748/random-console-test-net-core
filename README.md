@@ -1,7 +1,7 @@
 # random-console-test-net-core
 ## ubuntu-latest build test
 
-SystemOS | Build
+SystemOS | Build | Tests
 ------------ | ------------- | -------------
 ubuntu-latest | [![Build Status](https://dev.azure.com/matzemail2434545/user3748/_apis/build/status/user3748.random-console-test-net-core?branchName=master)](https://dev.azure.com/matzemail2434545/user3748/_build/latest?definitionId=2&branchName=master) | coming soon
 windows1909 | coming soon | coming soon
