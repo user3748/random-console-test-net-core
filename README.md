@@ -5,14 +5,24 @@
 this program should run on windows and ubuntu if the net core sdk is installed
 this program is about testing the Random() class
 
-# current version
-coming soon
+# Current program version
+* coming soon
 # Roadmap
+
+Releases | Status | Release Date
+------------ | ------------- | -------------
+v0.1.0 | In Development | when its ready
+v0.2.0 | In Development | when its ready
+v0.3.0 | Planning | TBA
 # Release v0.1.0 todo list
 - [] add statistics
 # Release v0.2.0 todo list
 - [] add multithreading
 - [] the ability to create own custom simulations
 - [] data log of the simulation
+# Release v0.3.0 todo list
+* coming soon
 # install instructions
+These things... they take time." - Gabe Newell
+# build from source
 These things... they take time." - Gabe Newell
