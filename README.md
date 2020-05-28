@@ -7,8 +7,7 @@ ubuntu-latest | [![Build Status](https://dev.azure.com/matzemail2434545/user3748
 windows1909 | coming soon | coming soon
 windows2004 | coming soon | coming soon
 ## info
-this program should run on windows and ubuntu if the net core sdk is installed
-this program is about testing the Random() class
+This program should run on windows and ubuntu if the net core sdk is installed, this program is about testing the Random() class.
 
 ## Current program version
 * coming soon
