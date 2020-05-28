@@ -6,52 +6,62 @@ namespace random_console_test_net_core
 {
     class Program
     {
+        public static int x = 0;
+        public static int y = 0; 
         static void Main(string[] args)
         {
+            Console.WindowWidth = 120;
             //todo: eyecandy bool flags <<<<<<<<<<<<<<<<<<<<<<<<<<---------------------------------------
-            bool showTextHighscoretrys = false;
-            bool showTextLowscoretrys = false;
+            bool showTextHighscore = false;
+            bool showTextLowscore = false;
             //init Random()
             Random rnd = new Random();
             int wait = 1000;//seconds to wait between each try.
-
             //random lucky numbers
-            int totalcalls = 0;
-            int xyz = 0;
+            int totalLoops = 0;
+            int attempt = 0;
             int highscoretrys = 0;
             int lowscoretrys = 999999;
-            //todo: make sure that x and y are two different numbers <<<<<<<<<<<<<<<<<<<<<<<<<<---------------------------------------
-            int x = rnd.Next(1, 101);//generate value from 1(inclusive) to 100(inclusive) lucky number 1
-            int y = rnd.Next(1, 101);//generate value from 1(inclusive) to 100(inclusive) lucky number 2
             while (true)
             {
-                totalcalls++;
+                x = rnd.Next(1, 101);//generate value from 1(inclusive) to 100(inclusive) lucky number 1
+                y = rnd.Next(1, 101);//generate value from 1(inclusive) to 100(inclusive) lucky number 2
+                if (x != y)
+                {
+                    break;
+                }
+            }
+
+            while (true)
+            {
+                totalLoops++;
                 //Console.WriteLine($"{xyz}");
-                xyz++;
+                attempt++;
                 //simulating 2 percent chance
                 
                 int a = rnd.Next(1, 101);//random number generated
-                Console.WriteLine($"{totalcalls}try: {xyz} random number a: {a} lucky number x: {x} lucky number y: {y} least trys:{lowscoretrys} most trys:{highscoretrys}");
+                Console.WriteLine($"[{totalLoops}]::attempt: {attempt} random number a: {a} lucky number x: {x} lucky number y: {y} least attempts:{lowscoretrys} most attempts:{highscoretrys}");
                 if (a == x || a == y)
                 {
-                    if (xyz > highscoretrys)
+                    if (attempt > highscoretrys)
                     {
-                        highscoretrys = xyz;
+                        highscoretrys = attempt;
                     }
-                    if (xyz < lowscoretrys)
+                    if (attempt < lowscoretrys)
                     {
-                        lowscoretrys = xyz;
+                        lowscoretrys = attempt;
                     }
-                    Console.WriteLine($"random number a : {a} matched: x:{x} or y:{y} in {xyz} trys most trys:{highscoretrys}///least trys:{lowscoretrys}");
+                    Console.WriteLine($"random number a : {a} matched: x:{x} or y:{y} in {attempt} attempts least attempts:{lowscoretrys} most attempts:{highscoretrys}");
                     Console.WriteLine("Press any key to try again... Press Ctrl + C to exit this program.");
-                    xyz = 0;//reset trys var because we want to start fresh
+                    attempt = 0;//reset attempts var because we want to start fresh
                 }
 
-                if(xyz == Int32.MaxValue - 1)
+                //exception handling
+                if(attempt == Int32.MaxValue - 1)
                 {
                     Console.WriteLine($"Sorry but to prevent the program from crashing we need to stop the simulation now because we have reached the Int32 limit which is: {Int32.MaxValue}");
                     Console.WriteLine($"Press any key to restart the simulation...");
-                    xyz = 0;//reset trys because we have reached the Int32.MaxValue
+                    attempt = 0;//reset attempts because we have reached the Int32.MaxValue
                 }
                 Thread.Sleep(wait);//Sleep for x milliseconds
             }
