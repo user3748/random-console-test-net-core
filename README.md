@@ -16,13 +16,11 @@ Releases | Update Type | Release Date | Status | Development Start (dd:mm:yyyy) 
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 v0.0.1 | Feature Update | when its ready | In Development | 28.05.20 | | Source Release
 v0.0.2 | Bugfix Update | when its ready | waiting | | | Source Release
-v0.0.3 | Feature Update | when its ready | Waiting | | Source Release
-v0.0.4 | Bugfix Update | when its ready | Planning | | Source Release
-v0.0.5 | Feature Update| when its ready | Waiting | | Source Release
-v0.0.6 | Bugfix Update | when its ready | Planning | | Source Release
-v0.0.7 | Feature Update | when its ready | Waiting | | Source Release
-
-- [ ]
+v0.0.3 | Feature Update | when its ready | Waiting | | | Source Release
+v0.0.4 | Bugfix Update | when its ready | Planning | | | Source Release
+v0.0.5 | Feature Update| when its ready | Waiting | | | Source Release
+v0.0.6 | Bugfix Update | when its ready | Planning | | | Source Release
+v0.0.7 | Feature Update | when its ready | Waiting | | | Source Release
 
 ### Feature Release v0.0.1 todo list
 - [ ] add statistics
