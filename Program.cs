@@ -31,7 +31,7 @@ namespace random_console_test_net_core
                 //simulating 2 percent chance
                 
                 int a = rnd.Next(1, 101);//random number generated
-                Console.WriteLine($"{totalcalls}try: {xyz} random number a: {a} lucky number x: {x} lucky number y: {y} most trys:{highscoretrys}///least trys:{lowscoretrys}");
+                Console.WriteLine($"{totalcalls}try: {xyz} random number a: {a} lucky number x: {x} lucky number y: {y} least trys:{lowscoretrys} most trys:{highscoretrys}");
                 if (a == x || a == y)
                 {
                     if (xyz > highscoretrys)
