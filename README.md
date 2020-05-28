@@ -28,6 +28,6 @@ v0.3.0 | Planning | TBA
 ### Release v0.3.0 todo list
 * coming soon
 ## install instructions
-These things... they take time." - Gabe Newell
+"These things... they take time." - Gabe Newell
 ## build from source instructions
-These things... they take time." - Gabe Newell
+"These things... they take time." - Gabe Newell
