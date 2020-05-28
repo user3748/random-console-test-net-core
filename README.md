@@ -53,4 +53,5 @@ v0.0.7 | Feature Update | when its ready | Waiting | | | Source Release
 Platform | Type | Download
 ------------ | ------------- | -------------
 Windows | x64 Portable |
-Win | x64 msi Installer |
+Windows | x64 msi Installer |
+Ubuntu | |
