@@ -15,11 +15,11 @@ v0.1.0 | In Development | when its ready
 v0.2.0 | In Development | when its ready
 v0.3.0 | Planning | TBA
 # Release v0.1.0 todo list
-- [] add statistics
+- [ ] add statistics
 # Release v0.2.0 todo list
-- [] add multithreading
-- [] the ability to create own custom simulations
-- [] data log of the simulation
+- [ ] add multithreading
+- [ ] the ability to create own custom simulations
+- [ ] data log of the simulation
 # Release v0.3.0 todo list
 * coming soon
 # install instructions
