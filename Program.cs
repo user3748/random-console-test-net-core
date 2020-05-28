@@ -12,7 +12,7 @@ namespace random_console_test_net_core
         static void Main(string[] args)
         {
             Console.WindowHeight = 50;
-            Console.WindowWidth = 150;
+            Console.WindowWidth = 160;
             bool showTextLowHighScore = false;
             //init Random()
             Random rnd = new Random();
