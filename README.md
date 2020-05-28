@@ -21,7 +21,7 @@ v0.2.0 | Waiting | when its ready | Feature Release | |
 v0.2.1 | Waiting | when its ready | Bugfix Release | | 
 v0.3.0 | Waiting | when its ready | Feature Release | | 
 v0.3.1 | Waiting | when its ready | Bugfix Release | | 
-v0.4.0 | Planning | TBA | Feature Release | | 
+v0.4.0 | Planning | when its ready | Feature Release | | 
 v0.4.1| Waiting | when its ready | Bugfix Release | | 
 ### Feature Release v0.1.0 todo list
 - [ ] add statistics
