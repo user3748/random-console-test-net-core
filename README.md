@@ -11,31 +11,46 @@ This program should run on windows and ubuntu if the net core sdk is installed, 
 
 ## Current program version
 * coming soon
-## Roadmap
+## Roadmap and Release History
+Releases | Update Type | Release Date | Status | Development Start (dd:mm:yyyy) | Development End (dd:mm:yyyy) | Release Type
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+v0.0.1 | Feature Update | when its ready | In Development | 28.05.20 | | Source Release
+v0.0.2 | Bugfix Update | when its ready | waiting | | | Source Release
+v0.0.3 | Feature Update | when its ready | Waiting | | Source Release
+v0.0.4 | Bugfix Update | when its ready | Planning | | Source Release
+v0.0.5 | Feature Update| when its ready | Waiting | | Source Release
+v0.0.6 | Bugfix Update | when its ready | Planning | | Source Release
+v0.0.7 | Feature Update | when its ready | Waiting | | Source Release
 
-Releases | Status | Release Date | Notes | Development Start | Development End
------------- | ------------- | ------------- | ------------- | ------------- | -------------
-v0.1.0 | In Development | when its ready | Feature Release | 28.05.2020 | 
-v0.1.1  | Waiting | when its ready | Bugfix Release | | 
-v0.2.0 | Waiting | when its ready | Feature Release | | 
-v0.2.1 | Waiting | when its ready | Bugfix Release | | 
-v0.3.0 | Waiting | when its ready | Feature Release | | 
-v0.3.1 | Waiting | when its ready | Bugfix Release | | 
-v0.4.0 | Planning | when its ready | Feature Release | | 
-v0.4.1| Waiting | when its ready | Bugfix Release | | 
-### Feature Release v0.1.0 todo list
+### Feature Release v0.0.1 todo list
 - [ ] add statistics
-### Feature Release v0.2.0 todo list
+- [ ] console output interval
+### Bugfix Release v0.0.2 todo list
+- [ ] code cleanup
+- [ ] code performance optimization
+### Feature Release v0.0.3 todo list
 - [ ] add multithreading
 - [ ] the ability to create own custom simulations
 - [ ] data log of the simulation
-### Feature Release v0.3.0 todo list
+- [ ] add verbose logging (add performance impact warning)
+### Bugfix Release v0.0.4 todo list
+- [ ] code cleanup
+- [ ] code performance optimization
+### Feature Release v0.0.5 todo list
 - [ ] GUI with qt
-### Feature Release v0.4.0 todo list
-* coming soon
+### Bugfix Release v0.0.6 todo list
+- [ ] code cleanup
+- [ ] code performance optimization
+### Feature Release v0.0.7 todo list
+- [ ] Binary Release Pipeline
 ## install instructions (work in progress)
 "These things... they take time." - Gabe Newell
 ## build from source instructions (work in progress)
 "These things... they take time." - Gabe Newell
 ## Documentation (work in progress)
 "These things... they take time." - Gabe Newell
+## Downloads (warning: work in progress everything is subject to change)
+Platform | Type | Download
+------------ | -------------
+Windows | x64 Portable
+Win | x64 msi Installer
