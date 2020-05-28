@@ -5,3 +5,6 @@
 #info
 this program should run on windows and ubuntu if the net core sdk is installed
 
+#todo
+add multithreading
+add statistics
