@@ -22,6 +22,8 @@ v0.0.5 | Feature Update| when its ready | Waiting | | Source Release
 v0.0.6 | Bugfix Update | when its ready | Planning | | Source Release
 v0.0.7 | Feature Update | when its ready | Waiting | | Source Release
 
+- [ ]
+
 ### Feature Release v0.0.1 todo list
 - [ ] add statistics
 - [ ] console output interval
