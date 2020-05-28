@@ -16,7 +16,7 @@ namespace random_console_test_net_core
             bool showTextLowHighScore = false;
             //init Random()
             Random rnd = new Random();
-            int wait = 1000;//seconds to wait between each try.
+            int wait = 0;//seconds to wait between each try.
             //random lucky numbers
             int totalLoops = 0;
             int attempt = 0;
@@ -43,12 +43,12 @@ namespace random_console_test_net_core
                 if (showTextLowHighScore)
                 {
                     //with lowest highest statistics
-                    Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}{totalLoops}] | attempt: {attempt} | random number a: {a} | lucky number x: {x}\tlucky number y: {y} | least attempts:{lowscoretrys} most attempts:{highscoretrys}");
+                    Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}] | attempt: {attempt} | random number a: {a} | lucky number x: {x}\tlucky number y: {y} | least attempts:{lowscoretrys} most attempts:{highscoretrys}");
                 }
                 else
                 {
                     //without lowest highest statistics
-                    Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}{totalLoops}] | attempt: {attempt} | random number a: {a} | lucky number x: {x}\tlucky number y: {y}");
+                    Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}] | attempt: {attempt} | random number a: {a} | lucky number x: {x}\tlucky number y: {y}");
                 }
                 if (a == x || a == y)
                 {

@@ -33,9 +33,9 @@ v0.4.1| Waiting | when its ready | Bugfix Release
 - [ ] GUI with qt
 ### Feature Release v0.4.0 todo list
 * coming soon
-## install instructions
+## install instructions (work in progress)
 "These things... they take time." - Gabe Newell
-## build from source instructions
+## build from source instructions (work in progress)
 "These things... they take time." - Gabe Newell
-##Documentation
+## Documentation (work in progress)
 "These things... they take time." - Gabe Newell
