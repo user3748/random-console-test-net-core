@@ -33,6 +33,7 @@ v0.0.7 | Feature Update | when its ready | Waiting | | | Source Release
 - [ ] the ability to create own custom simulations
 - [ ] data log of the simulation
 - [ ] add verbose logging (add performance impact warning)
+- [ ] the ability to log the simulation in an efficient way (cpu data -> ram -> disk ) in a machine readable format
 ### Bugfix Release v0.0.4 todo list
 - [ ] code cleanup
 - [ ] code performance optimization
