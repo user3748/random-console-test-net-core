@@ -1,10 +1,10 @@
 # random-console-test-net-core
 ## ubuntu-latest build test
 
-SystemOS | Branch | Build | Tests
------------- | ------------- | ------------- | -------------
-ubuntu-latest | master | [![Build Status](https://dev.azure.com/matzemail2434545/user3748/_apis/build/status/user3748.random-console-test-net-core?branchName=master&jobName=Job&configuration=Job%20linux)](https://dev.azure.com/matzemail2434545/user3748/_build/latest?definitionId=2&branchName=master) | coming soon
-windows-latest | master | [![Build Status](https://dev.azure.com/matzemail2434545/user3748/_apis/build/status/user3748.random-console-test-net-core?branchName=master&jobName=Job&configuration=Job%20windows)](https://dev.azure.com/matzemail2434545/user3748/_build/latest?definitionId=2&branchName=master) | coming soon
+SystemOS | Branch | Build | Tests | Code Coverage
+------------ | ------------- | ------------- | ------------- | -------------
+ubuntu-latest | master | [![Build Status](https://dev.azure.com/matzemail2434545/user3748/_apis/build/status/user3748.random-console-test-net-core?branchName=master&jobName=Job&configuration=Job%20linux)](https://dev.azure.com/matzemail2434545/user3748/_build/latest?definitionId=2&branchName=master) | coming soon | coming soon
+windows-latest | master | [![Build Status](https://dev.azure.com/matzemail2434545/user3748/_apis/build/status/user3748.random-console-test-net-core?branchName=master&jobName=Job&configuration=Job%20windows)](https://dev.azure.com/matzemail2434545/user3748/_build/latest?definitionId=2&branchName=master) | coming soon | coming soon
 ## info (work in progress)
 This program should run on windows and ubuntu if the net core sdk is installed, this program is about testing the Random() class.
 
