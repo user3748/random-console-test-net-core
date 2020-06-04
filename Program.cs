@@ -42,7 +42,12 @@ namespace random_console_test_net_core
                 y = rnd.Next(1, 101);//generate value from 1(inclusive) to 100(inclusive) lucky number 2
                 if (x != y)
                 {
+                    Console.WriteLine($"x != y GOOD");
                     break;
+                }
+                if (x == y)
+                {
+                    Console.WriteLine($"found x:{x} = y:{y} NOT GOOD trying again.");
                 }
             }
 
@@ -59,13 +64,13 @@ namespace random_console_test_net_core
                     //with lowest highest statistics
                     //TimeSpan ts = DateTime.Now - dt;//calculate the total time since the start of the program
                     //Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}]\t | attempt: {attempt}\t | r. number a: {a}\t | lucky x: {x}\tlucky y: {y} | l:{lowscoretrys} m:{highscoretrys}");
-                    Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt:D5}][r. number a: {a:D3}][lucky x: {x:D3}][lucky y: {y:D3}][least:{lowscoretrys}][most:{highscoretrys}]");
+                    Console.WriteLine($"\r[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt:D5}][r. number a: {a:D3}][lucky x: {x:D3}][lucky y: {y:D3}][least:{lowscoretrys}][most:{highscoretrys}]");
                 }
                 else
                 {
                     //without lowest highest statistics
                     //TimeSpan ts = DateTime.Now - dt;//calculate the total time since the start of the program
-                    Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt:D5}][r. number a: {a:D3}][lucky x: {x:D3}][lucky y: {y:D3}]");
+                    Console.WriteLine($"\r[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt:D5}][r. number a: {a:D3}][lucky x: {x:D3}][lucky y: {y:D3}]");
                 }
                 if (a == x || a == y)
                 {
@@ -84,7 +89,7 @@ namespace random_console_test_net_core
                     //Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}]\t | attempt: {attempt}\t | r. number a: {a}\t | lucky x: {x}\tlucky y: {y} | l:{lowscoretrys} m:{highscoretrys}\t | r number a : {a} matched: x:{x} or y:{y} in {attempt} attempts Ctrl + C to exit this program.");
 
                     //Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt}][r. number a: {a}][lucky x: {x}][lucky y: {y}][least:{lowscoretrys}][most:{highscoretrys}][r number a : {a} matched: x:{x} or y:{y} in {attempt} attempts Ctrl + C to exit this program.]");
-                    Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt:D5}][r. number a: {a:D3}][lucky x: {x:D3}][lucky y: {y:D3}][least:{lowscoretrys}][most:{highscoretrys}][r number a : {a} matched: x:{x} or y:{y} in {attempt} attempts Ctrl + C to exit this program.]");
+                    Console.WriteLine($"\r[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt:D5}][r. number a: {a:D3}][lucky x: {x:D3}][lucky y: {y:D3}][least:{lowscoretrys}][most:{highscoretrys}][r number a : {a} matched: x:{x} or y:{y} in {attempt} attempts Ctrl + C to exit this program.]");
 
                     //Console.WriteLine($"");
                     //Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}]\t\t\t\t\t\t\t\t\t\t\t                    Ctrl + C to exit this program.");
