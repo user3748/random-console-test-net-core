@@ -17,8 +17,6 @@ namespace random_console_test_net_core
         public static int programRuntimeInSeconds = 0;
         static void Main(string[] args)
         {
-            //count the execution time
-            DateTime dt = new DateTime();
             Console.WindowHeight = 50;
             Console.WindowWidth = 170;
             bool showTextLowHighScore = false;
@@ -30,7 +28,7 @@ namespace random_console_test_net_core
             int attempt = 0;
             int highscoretrys = 0;
             int lowscoretrys = 999999;
-            //init timer Thank you: https://stackoverflow.com/questions/186084/how-do-you-add-a-timer-to-a-c-sharp-console-application
+            //init timer: https://stackoverflow.com/questions/186084/how-do-you-add-a-timer-to-a-c-sharp-console-application
             Timer t = new Timer(TimerCallback, null, 0, 1000);
 
             //Ask the user for settings
@@ -62,14 +60,11 @@ namespace random_console_test_net_core
                 if (showTextLowHighScore)//for eye candy
                 {
                     //with lowest highest statistics
-                    //TimeSpan ts = DateTime.Now - dt;//calculate the total time since the start of the program
-                    //Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}]\t | attempt: {attempt}\t | r. number a: {a}\t | lucky x: {x}\tlucky y: {y} | l:{lowscoretrys} m:{highscoretrys}");
                     Console.WriteLine($"\r[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt:D5}][r. number a: {a:D3}][lucky x: {x:D3}][lucky y: {y:D3}][least:{lowscoretrys}][most:{highscoretrys}]");
                 }
                 else
                 {
                     //without lowest highest statistics
-                    //TimeSpan ts = DateTime.Now - dt;//calculate the total time since the start of the program
                     Console.WriteLine($"\r[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt:D5}][r. number a: {a:D3}][lucky x: {x:D3}][lucky y: {y:D3}]");
                 }
                 if (a == x || a == y)
@@ -84,15 +79,7 @@ namespace random_console_test_net_core
                         lowscoretrys = attempt;
                     }
 
-                    //Console.WriteLine();//print to string
-                    //TimeSpan ts = DateTime.Now - dt;//calculate the total time since the start of the program
-                    //Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}]\t | attempt: {attempt}\t | r. number a: {a}\t | lucky x: {x}\tlucky y: {y} | l:{lowscoretrys} m:{highscoretrys}\t | r number a : {a} matched: x:{x} or y:{y} in {attempt} attempts Ctrl + C to exit this program.");
-
-                    //Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt}][r. number a: {a}][lucky x: {x}][lucky y: {y}][least:{lowscoretrys}][most:{highscoretrys}][r number a : {a} matched: x:{x} or y:{y} in {attempt} attempts Ctrl + C to exit this program.]");
                     Console.WriteLine($"\r[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt:D5}][r. number a: {a:D3}][lucky x: {x:D3}][lucky y: {y:D3}][least:{lowscoretrys}][most:{highscoretrys}][r number a : {a} matched: x:{x} or y:{y} in {attempt} attempts Ctrl + C to exit this program.]");
-
-                    //Console.WriteLine($"");
-                    //Console.WriteLine($"[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}]\t\t\t\t\t\t\t\t\t\t\t                    Ctrl + C to exit this program.");
                     //Thread.Sleep(5000);//5000 for test
                     attempt = 0;//reset attempts var because we want to start fresh
                 }
