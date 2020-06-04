@@ -1,11 +1,11 @@
 # random-console-test-net-core
 ## ubuntu-latest build test
 
-SystemOS | Build | Tests
+SystemOS | Branch | Build | Tests
 ------------ | ------------- | -------------
-ubuntu-latest | [![Build Status](https://dev.azure.com/matzemail2434545/user3748/_apis/build/status/user3748.random-console-test-net-core?branchName=master)](https://dev.azure.com/matzemail2434545/user3748/_build/latest?definitionId=2&branchName=master) | coming soon
-windows1909 | coming soon | coming soon
-windows2004 | coming soon | coming soon
+ubuntu-latest | master | [![Build Status](https://dev.azure.com/matzemail2434545/user3748/_apis/build/status/user3748.random-console-test-net-core?branchName=master)](https://dev.azure.com/matzemail2434545/user3748/_build/latest?definitionId=2&branchName=master) | coming soon
+windows1909 | master | coming soon | coming soon
+windows2004 | master | coming soon | coming soon
 ## info (work in progress)
 This program should run on windows and ubuntu if the net core sdk is installed, this program is about testing the Random() class.
 
