@@ -80,7 +80,6 @@ namespace random_console_test_net_core
                     }
 
                     Console.WriteLine($"\r[{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.ff")}][{totalLoops}][{programRuntimeInSeconds}][attempt: {attempt:D5}][r. number a: {a:D3}][lucky x: {x:D3}][lucky y: {y:D3}][least:{lowscoretrys}][most:{highscoretrys}][r number a : {a} matched: x:{x} or y:{y} in {attempt} attempts Ctrl + C to exit this program.]");
-                    //Thread.Sleep(5000);//5000 for test
                     attempt = 0;//reset attempts var because we want to start fresh
                 }
 
