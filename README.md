@@ -37,7 +37,7 @@ v0.0.7 | Feature Update | when its ready | Waiting | | | Source Release
 - [ ] code cleanup
 - [ ] code performance optimization
 ### Feature Release v0.0.5 todo list
-- [ ] GUI with qt or avalonia
+- [ ] GUI with avalonia
 ### Bugfix Release v0.0.6 todo list
 - [ ] code cleanup
 - [ ] code performance optimization
