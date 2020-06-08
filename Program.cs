@@ -19,8 +19,8 @@ namespace random_console_test_net_core
         {
             //count the execution time
             //DateTime dt = new DateTime();
-            Console.WindowHeight = 50;
-            Console.WindowWidth = 170;
+            //Console.WindowHeight = 50;
+            //Console.WindowWidth = 170;
             bool showTextLowHighScore = false;
             //init Random()
             Random rnd = new Random();
