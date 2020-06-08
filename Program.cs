@@ -18,7 +18,7 @@ namespace random_console_test_net_core
         static void Main(string[] args)
         {
             //count the execution time
-            DateTime dt = new DateTime();
+            //DateTime dt = new DateTime();
             Console.WindowHeight = 50;
             Console.WindowWidth = 170;
             bool showTextLowHighScore = false;
